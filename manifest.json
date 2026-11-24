@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Google QR SMS Helper",
+  "version": "1.1.0",
+  "description": "Automatically detects Google verification QR codes, injects the [3,null,4] downgrade state, and maintains an iPad Mini environment across the full flow (including the batchexecute code submission endpoint).",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://accounts.google.com/*",
+    "https://console.cloud.google.com/*",
+    "https://g.co/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://accounts.google.com/*"
+      ],
+      "js": ["ua_spoof.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": [
+        "https://accounts.google.com/*",
+        "https://console.cloud.google.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
