@@ -60,9 +60,11 @@ Khi bạn bấm **`Verify`**, Google trên trình duyệt máy tính thường �
 
 ## Video hướng dẫn chi tiết
 
-Xem hoặc tải video quay màn hình thao tác thực tế từ lúc gặp lỗi đến khi xác minh xong và vào lại Antigravity thành công:
+Xem trực tiếp video quay màn hình thao tác thực tế từ lúc gặp lỗi đến khi xác minh xong và vào lại Antigravity thành công:
 
-- **Xem / Tải video:** [Xem / Tải video hướng dẫn thực tế (docs/QR.mp4 — 8,26 MB)](./docs/QR.mp4)
+https://github.com/user-attachments/assets/4ed985b3-edb6-49af-a737-f59e57386cfc
+
+- **File dự phòng trong repo:** [Xem / Tải video hướng dẫn thực tế (docs/QR.mp4 — 8,26 MB)](./docs/QR.mp4)
 - **Link tải trực tiếp (Raw):** https://github.com/namxely/google-qr-sms-helper/raw/main/docs/QR.mp4
 
 | Mốc thời gian | Nội dung thao tác trong video `QR.mp4` |
