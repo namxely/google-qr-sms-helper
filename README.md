@@ -62,9 +62,9 @@ Khi bạn bấm **`Verify`**, Google trên trình duyệt máy tính thường �
 
 Xem trực tiếp video quay màn hình thao tác thực tế từ lúc gặp lỗi đến khi xác minh xong và vào lại Antigravity thành công:
 
-https://github.com/user-attachments/assets/4ed985b3-edb6-49af-a737-f59e57386cfc
+https://github.com/user-attachments/assets/52478bbf-e94a-45c0-9e95-11aad1082320
 
-- **File dự phòng trong repo:** [Xem / Tải video hướng dẫn thực tế (docs/QR.mp4 — 8,26 MB)](./docs/QR.mp4)
+- **File dự phòng trong repo:** [Xem / Tải video hướng dẫn thực tế (docs/QR.mp4 — 8,40 MB)](./docs/QR.mp4)
 - **Link tải trực tiếp (Raw):** https://github.com/namxely/google-qr-sms-helper/raw/main/docs/QR.mp4
 
 | Mốc thời gian | Nội dung thao tác trong video `QR.mp4` |
@@ -161,7 +161,7 @@ google-qr-sms-helper/
 ├── README.md                          # Tài liệu hướng dẫn đầy đủ bằng tiếng Việt
 └── docs/
     ├── antigravity-verify-error.jpg   # Ảnh chụp lỗi Antigravity thường gặp
-    └── QR.mp4                         # Video quay màn hình hướng dẫn thực tế (8,26 MB)
+    └── QR.mp4                         # Video quay màn hình hướng dẫn thực tế (8,40 MB)
 ```
 
 ---
@@ -193,7 +193,7 @@ Hãy đảm bảo bạn đang dùng **Chrome hoặc Edge từ phiên bản 88 tr
 ## Credits & References
 
 - **Mã nguồn gốc & bản quyền MIT:** [havenicec/google-qr-sms-helper](https://github.com/havenicec/google-qr-sms-helper) — giữ nguyên tệp [LICENSE](./LICENSE) gốc (`Copyright (c) 2026 Haven (@havenicec)`).
-- **Biên tập hướng dẫn tiếng Việt, ảnh lỗi minh họa & video thao tác:** [namxely/google-qr-sms-helper](https://github.com/namxely/google-qr-sms-helper).
+- **Biên tập hướng dẫn tiếng Việt, ảnh lỗi minh họa & video thao tác:** [namxely/google-qr-sms-helper](https://github.com/namxely/google-qr-sms-helper) *(video sử dụng nhạc nền không lời chill remix tự tổng hợp 100% không bản quyền)*.
 
 <div align="center">
 
