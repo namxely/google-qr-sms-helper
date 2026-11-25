@@ -64,6 +64,9 @@ Xem trực tiếp video quay màn hình thao tác thực tế từ lúc gặp l�
 
 https://github.com/user-attachments/assets/52478bbf-e94a-45c0-9e95-11aad1082320
 
+> [!NOTE]
+> **Lưu ý về số điện thoại trong video:** Bạn có thể dùng **bất kỳ số điện thoại nào** nhận được tin nhắn SMS (số Việt Nam `+84` hay bất kỳ quốc gia nào đều được). Số điện thoại xuất hiện trong video chỉ mang tính **minh họa**, hoàn toàn **không bắt buộc** đúng quốc gia hay đầu số như trong video.
+
 - **File dự phòng trong repo:** [Xem / Tải video hướng dẫn thực tế (docs/QR.mp4 — 8,40 MB)](./docs/QR.mp4)
 - **Link tải trực tiếp (Raw):** https://github.com/namxely/google-qr-sms-helper/raw/main/docs/QR.mp4
 
@@ -85,9 +88,27 @@ Vì tệp `manifest.json` được đặt ngay tại thư mục gốc của repo
 
 1. Bấm nút **`<> Code`** màu xanh ở đầu trang này → chọn **`Download ZIP`**.
 2. Giải nén tệp `.zip` vừa tải về thành một thư mục trên máy (ví dụ: `google-qr-sms-helper-main`).
-3. Mở trình duyệt Chrome / Edge / Brave, nhập **`chrome://extensions/`** vào thanh địa chỉ và nhấn **Enter**.
-4. Bật công tắc **Developer mode** (*Chế độ dành cho nhà phát triển*) ở góc trên bên phải.
-5. Bấm nút **Load unpacked** (*Tải tiện ích đã giải nén*) ở góc trên bên trái và chọn **thư mục vừa giải nén** (thư mục chứa `manifest.json`).
+3. Mở tab mới trên trình duyệt **Chrome / Edge / Brave**, sao chép (copy) đường dẫn dưới đây dán vào thanh địa chỉ rồi nhấn **Enter** *(trình duyệt chặn bấm link `chrome://` trực tiếp từ trang web nên cần dán thủ công)*:
+
+```text
+chrome://extensions/
+```
+
+4. Bật công tắc **Chế độ dành cho nhà phát triển (Developer mode)** ở góc trên bên phải:
+
+   ![Bước 1: Bật Chế độ dành cho nhà phát triển](./docs/install-step-1-dev-mode.png)
+
+5. Bấm nút **Tải tiện ích đã giải nén (Load unpacked)** ở góc trên bên trái:
+
+   ![Bước 2: Bấm Tải tiện ích đã giải nén](./docs/install-step-2-load-unpacked.png)
+
+6. Chọn đúng **thư mục bên trong** chứa `manifest.json` rồi bấm **Chọn Cặp / Select Folder**. *(Lưu ý: khi giải nén file ZIP trên Windows thường tạo ra 2 lớp thư mục `google-qr-sms-helper-main/google-qr-sms-helper-main` — hãy mở vào lớp bên trong cùng như hình dưới)*:
+
+   ![Bước 3: Chọn đúng thư mục bên trong chứa manifest.json](./docs/install-step-3-select-folder.png)
+
+7. Xác nhận thẻ **Google QR SMS Helper 1.1.0** xuất hiện và công tắc đang bật màu xanh là cài đặt thành công:
+
+   ![Bước 4: Cài đặt Google QR SMS Helper thành công](./docs/install-step-4-installed.png)
 
 ### Cách 2: Cài đặt qua Git Clone
 
@@ -161,6 +182,10 @@ google-qr-sms-helper/
 ├── README.md                          # Tài liệu hướng dẫn đầy đủ bằng tiếng Việt
 └── docs/
     ├── antigravity-verify-error.jpg   # Ảnh chụp lỗi Antigravity thường gặp
+    ├── install-step-1-dev-mode.png    # Ảnh bước 1: Bật Developer mode
+    ├── install-step-2-load-unpacked.png # Ảnh bước 2: Bấm Load unpacked
+    ├── install-step-3-select-folder.png # Ảnh bước 3: Chọn đúng thư mục bên trong
+    ├── install-step-4-installed.png   # Ảnh bước 4: Extension đã cài thành công
     └── QR.mp4                         # Video quay màn hình hướng dẫn thực tế (8,40 MB)
 ```
 
